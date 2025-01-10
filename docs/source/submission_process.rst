@@ -11,14 +11,15 @@ Creating an instrument to upload raw data
 Create a project under which to group the raw data into a Study that was generated using a specific experimental protocol
 Upload biospecimen and clinical metadata for the samples used in the Studies
 Upload any additional supplementary files
-Create an instrument:
+
+Create an instrument
 ----------------  
 
 An instrument is a representation of the mass spectrometer from your lab. Go to create, click instrument, and enter the relevant information about the mass spectrometer used to collect the data. If you are a program member, you will receive an email once approved by the PDC admin or the program lead (PI).
 
 Note: You must be added as an assigned instrument operator to upload data to an instrument unless you are the creator of that instrument.
 
-Upload raw files:
+Upload raw files
 ---------------  
 
 Click upload, and in the dialog requesting information, select the instrument you previously created. You can upload directly from your local computer or from the cloud (AWS S3 is supported) if your files are on S3 already.
@@ -34,7 +35,7 @@ For Bruker instruments like the Bruker Tims Tof series, where a folder represent
 Tip: You may create a separate instrument for each study that you would like to create, even if all those files are generated from the same mass spectrometer. This is not required, but may help to organize and separate your files, facilitating study creation.
 
 
-Validate file metadata:
+Validate file metadata
 --------------  
 
 To use these files to create your studies, you must first validate the file metadata. This ensures that the upload was successful, and no file corruption or truncation has occurred. To do this, you will need the "File_Metadata" sheet from your PDC Data Submission Template saved as a TSV file.
@@ -56,14 +57,14 @@ If you have files that failed verification, click on the 3 vertical dots in fron
 
 These differences may be the result of corruption or truncation of the file when uploading to Workspace. Check your metadata worksheet and make sure the values are correct; if they are, then you will need to delete, re-upload and validate the failed files. Once all files have successfully validated, they may be used in the creation of your studies.
 
-Create a Project:
+Create a Project
 -------------  
 
 Before you can create a Study or add your Protocol, you first need to create a Project.
 
 Click Create->Project to open the wizard. Next, give your Project a name, select a Program and area of Research. You may also add collaborators to your project using the Sharing tab.
 
-Create a Protocol:
+Create a Protocol
 --------------
   
 Next, you will add the protocol metadata used in your Study. Click Create->Protocol to open the wizard. Required fields are marked with *. If you are unable to complete your protocol, you can ‘Save as Draft’ and resume later.
@@ -75,7 +76,7 @@ Click "Edit" and proceed with entering your protocol data.
 If you feel that the wizard does not adequately meet your annotation needs for your particular Protocol, please contact the PDC by email for help resolving any issues.
 
 
-Create a Study:
+Create a Study
 --------------  
 
 In the PDC workspace, a study is a group of instrument raw files that are generated using a specific experimental protocol, with a well-annotated experimental design (sample to file mapping) that can be analyzed through a single bioinformatics pipeline.
@@ -87,7 +88,7 @@ You can locate your study draft using the left navigation panel. Under “View T
 
 Click "Edit" and proceed with entering your study data.
 
-Upload Clinical & Biospecimen Metadata:
+Upload Clinical & Biospecimen Metadata
 -----------
 
 To load the Clinical and Biospecimen data, save the Case Matrix, Case, Demographics, Diagnosis, Exposure, Family History, Treatment, Follow-Up, Sample, and Aliquot worksheets as TSV files from the PDC Submission template you prepared.
@@ -118,7 +119,7 @@ To update your metadata. Click 'Upload', then select 'Direct Upload' under 'Meta
 Select the metadata upload set you wish to update; the name of the set contains the prefix or suffix of your TSV files and a timestamp of the original upload. Once you have selected a set to update, upload the set of 10 TSVs for the cases, samples, and aliquots you wish to update. 
 You may choose to include only a subset of the cases, samples, and aliquots included in the original upload, but cannot include those that were not included in the original set.
 
-Upload additional supplementary files:
+Upload additional supplementary files
 --------------
 
 You may also upload additional supplementary files (non-raw files), such as processed outputs from your own data analysis pipeline, SOPs, clinical data, etc. You can select the appropriate data category for the files you wish upload - ‘Alternative Processing Pipeline’, ‘Other Metadata’ and ‘Supplementary Data’.
