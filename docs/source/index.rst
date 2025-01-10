@@ -31,4 +31,6 @@ How to submit data:
    register_data_submitter
    login_workspace
    submission_process
+   upload_clinical
+   upload_supplementary
    
