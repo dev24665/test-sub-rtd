@@ -1,4 +1,4 @@
-Upload Clinical & Biospecimen Metadata:
+Upload Clinical & Biospecimen Metadata
 ==============
 
 To load the Clinical and Biospecimen data, save the Case Matrix, Case, Demographics, Diagnosis, Exposure, Family History, Treatment, Follow-Up, Sample, and Aliquot worksheets as TSV files from the PDC Submission template you prepared.
