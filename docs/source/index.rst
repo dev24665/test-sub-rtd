@@ -21,10 +21,14 @@ When including PDC study identifiers in journal data availability statements, pl
 For more details, contact PDCHelpDesk@mail.nih.gov
 
 
-Contents
+How to submit data: 
 --------
 
 .. toctree::
 
-   usage
-   api
+   register_program
+   register
+   register_data_submitter
+   login_workspace
+   submission_process
+   
