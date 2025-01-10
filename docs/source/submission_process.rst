@@ -1,4 +1,4 @@
-Submission process:
+Submission process
 ========
 
 Note: Before you begin the submission, we strongly recommend you use the PDC submission template to collect the information required for a successful submission.
@@ -87,44 +87,6 @@ You can locate your study draft using the left navigation panel. Under “View T
 
 Click "Edit" and proceed with entering your study data.
 
-Upload Clinical & Biospecimen Metadata:
----------------  
-
-To load the Clinical and Biospecimen data, save the Case Matrix, Case, Demographics, Diagnosis, Exposure, Family History, Treatment, Follow-Up, Sample, and Aliquot worksheets as TSV files from the PDC Submission template you prepared.
-
-Note: Clinical and biospecimen metadata should be submitted for all the aliquots (their parent samples and cases) that are entered in the Study creation step.
-
-All 10 files are required for upload, but if you have no data for the Exposure, Family History, Treatment, and Follow-Up entities you may include empty files containing only the column headers. Place all 10 TSV files in a new folder on your local computer. In the workspace click “Upload” then under Metadata click “Direct Upload.”
-
-A popup wizard to upload the metadata will appear. Click “Select a File Type” and select “All Clinical & Biospecimen.” Next, click “Select Program” to select the program the metadata belongs to and “Select Project” to choose the project your metadata is associated with. An icon will appear in the wizard giving you the option to upload your files. You can either drag and drop your files or select a folder the files belong to. A notification will appear requesting you to confirm the upload of all files from that folder. Click “Upload” to confirm.
-
-When all 10 TSV files are present, click "Upload" and you will have successfully uploaded your files.
-
-The clinical and biospecimen data you uploaded can be viewed by locating the navigation panel on your left and under the “File Management” section select “Metadata Files.” Select the vertical dots in front of the metadata file name and select “Show Content.”
-
-To view all the metadata you have uploaded, select “My” under the “View Type” section and select Case, Sample, Aliquot, Diagnosis, or Demographic under the “Data Type” section. As seen below, by selecting View Type “My” and Data Type “Case” you would see the metadata you uploaded for Case.
-
-If you need to make changes to your clinical and biospecimen metadata, you will need to either reupload or update your data. To reupload, you first need to delete all your metadata files. Locate the navigation panel on your left and under File Management select “Metadata Files.” Select the files to delete and click the delete icon at the top.
-
-To update your metadata. Click 'Upload', then select 'Direct Upload' under 'Metadata'. Within the 'Upload Metadata' window, select 'Update Existing Metadata'.
-
-Select the metadata upload set you wish to update; the name of the set contains the prefix or suffix of your TSV files and a timestamp of the original upload. Once you have selected a set to update, upload the set of 10 TSVs for the cases, samples, and aliquots you wish to update. You may choose to include only a subset of the cases, samples, and aliquots included in the original upload, but cannot include those that were not included in the original set.
-
-
-Upload additional supplementary files:
----------------  
-
-You may also upload additional supplementary files (non-raw files), such as processed outputs from your own data analysis pipeline, SOPs, clinical data, etc. You can select the appropriate data category for the files you wish upload - ‘Alternative Processing Pipeline’, ‘Other Metadata’ and ‘Supplementary Data’.
-
-Once you complete the Study creation, you may proceed to upload the supplementary files associated with the study. We recommend you contact the PDC team to validate your study on Workspace before you begin uploading the non-raw files.
-
-To begin uploading any of these types of files, select “Direct Upload” under the ‘Non-Raw Files’ tab in the ‘Upload’ dropdown.
-
-In the upload interface, first you must select the study you wish to associate the files with, and the type of file. You may choose to directly select a study, and the ‘Program’ and ‘Project’ options will be automatically filled.
-
-The Data Source ‘Submitter’ will be automatically filled in. The other option, CDAP, is used by the PDC team to handle the upload of files produced by the “Common Data Analysis Pipeline.” Choose the data category you wish to upload from the ‘Data Category’ dropdown. Note that you will only be able to upload files with extensions belonging to that category. You may choose to upload a directory of files simultaneously, and file extensions that do not match the selected category will be automatically removed. However, note that some data categories have overlapping file extensions. You may wish to organize your files by data category prior to uploading.
-
-This completes the process of submission of a dataset for release through the PDC data portal. If you have any questions about this process, please contact the PDC by email for help PDCHelpDesk@mail.nih.gov.
 
 
 
