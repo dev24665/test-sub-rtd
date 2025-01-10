@@ -1,4 +1,4 @@
-Upload additional supplementary files:
+Upload additional supplementary files
 =============
 
 You may also upload additional supplementary files (non-raw files), such as processed outputs from your own data analysis pipeline, SOPs, clinical data, etc. You can select the appropriate data category for the files you wish upload - ‘Alternative Processing Pipeline’, ‘Other Metadata’ and ‘Supplementary Data’.
